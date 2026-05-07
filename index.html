@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>SmartRovert | SmartAgriculture</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
+        crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+        rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+        rel="stylesheet" />
+
+    <!-- Bootstrap CSS -->
+    <link href="css/styles.css" rel="stylesheet" />
+
+</head>
+
+<body id="page-top">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
+        id="mainNav">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="#page-top">
+                SmartRovert
+            </a>
+
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive">
+
+                Menú
+                <i class="fas fa-bars"></i>
+
+            </button>
+
+            <div class="collapse navbar-collapse"
+                id="navbarResponsive">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item mx-0 mx-lg-1">
+
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#problema">
+
+                            Problema
+
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item mx-0 mx-lg-1">
+
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#objetivos">
+
+                            Objetivos
+
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item mx-0 mx-lg-1">
+
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#documentacion">
+
+                            Documentación
+
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item mx-0 mx-lg-1">
+
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="pages/marco-logico.html">
+
+                            Marco lógico
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- HEADER -->
+    <header class="masthead bg-primary text-white text-center">
+
+        <div class="container d-flex align-items-center flex-column">
+
+            <!-- Imagen -->
+            <img class="masthead-avatar mb-5"
+                src="assets/img/robot/smartrovert.png"
+                alt="SmartRovert">
+
+            <!-- Título -->
+            <h1 class="masthead-heading text-uppercase mb-0">
+
+                SmartRovert
+
+            </h1>
+
+            <!-- Divider -->
+            <div class="divider-custom divider-light">
+
+                <div class="divider-custom-line"></div>
+
+                <div class="divider-custom-icon">
+
+                    <i class="fas fa-leaf"></i>
+
+                </div>
+
+                <div class="divider-custom-line"></div>
+
+            </div>
+
+            <!-- Subtítulo -->
+            <p class="masthead-subheading font-weight-light mb-0">
+
+                Sistema de robótica agrícola basado en IoT y visión artificial
+
+            </p>
+
+            <br>
+
+            <p>
+
+                Cristian Mauricio Muñoz <br>
+                Juan Esteban Castiblanco
+
+            </p>
+
+            <br>
+
+            <a class="btn btn-xl btn-outline-light"
+                href="assets/documentos/anteproyecto.pdf"
+                target="_blank">
+
+                <i class="fas fa-download me-2"></i>
+
+                Ver Anteproyecto
+
+            </a>
+
+        </div>
+
+    </header>
+
+    <!-- FICHA RÁPIDA -->
+    <section class="page-section">
+
+        <div class="container">
+
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-5">
+
+                Ficha rápida
+
+            </h2>
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-8">
+
+                    <ul class="lead">
+
+                        <li>
+                            <strong>Proyecto:</strong> SmartRovert
+                        </li>
+
+                        <li>
+                            <strong>Programa:</strong> Ingeniería de Sistemas y Computación
+                        </li>
+
+                        <li>
+                            <strong>Asignatura:</strong> Ciencia, Tecnología e Innovación I
+                        </li>
+
+                        <li>
+                            <strong>Institución:</strong> Universidad de Cundinamarca
+                        </li>
+
+                        <li>
+                            <strong>Sede:</strong> Extensión Chía
+                        </li>
+
+                        <li>
+                            <strong>Año:</strong> 2026
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PROBLEMA -->
+    <section class="page-section bg-light"
+        id="problema">
+
+        <div class="container">
+
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-5">
+
+                Planteamiento del problema
+
+            </h2>
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-10">
+
+                    <p class="lead text-center">
+
+                        El sector agrícola enfrenta dificultades relacionadas con
+                        el monitoreo eficiente de cultivos y el uso inadecuado
+                        de recursos agrícolas, especialmente en sistemas de pequeña escala.
+
+                        <br><br>
+
+                        Actualmente, muchos procesos continúan realizándose de forma manual,
+                        limitando la supervisión de variables ambientales y dificultando
+                        la detección temprana de problemas que afectan la productividad agrícola.
+
+                        <br><br>
+
+                        En este contexto, SmartRovert propone el desarrollo y mejora
+                        de un sistema de robótica agrícola basado en Internet de las Cosas (IoT)
+                        y visión artificial para optimizar el monitoreo inteligente
+                        de cultivos.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PREGUNTA -->
+    <section class="page-section">
+
+        <div class="container">
+
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-5">
+
+                Pregunta de investigación
+
+            </h2>
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-8">
+
+                    <p class="lead text-center">
+
+                        ¿Cómo optimizar el desempeño del prototipo SmartRovert
+                        mediante tecnologías IoT y visión artificial para mejorar
+                        el monitoreo de variables ambientales en cultivos
+                        de pequeña escala?
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- OBJETIVOS -->
+    <section class="page-section bg-light"
+        id="objetivos">
+
+        <div class="container">
+
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-5">
+
+                Objetivos
+
+            </h2>
+
+            <div class="row">
+
+                <div class="col-lg-10 mx-auto">
+
+                    <h3>
+                        Objetivo General
+                    </h3>
+
+                    <p class="lead">
+
+                        Evaluar el desempeño del prototipo SmartRovert e implementar
+                        mejoras basadas en IoT y visión artificial para optimizar
+                        su funcionamiento en cultivos de pequeña escala.
+
+                    </p>
+
+                    <br>
+
+                    <h3>
+                        Objetivos Específicos
+                    </h3>
+
+                    <ul class="lead">
+
+                        <li>
+                            Identificar limitaciones técnicas y estructurales del prototipo SmartRovert.
+                        </li>
+
+                        <li>
+                            Evaluar el monitoreo de variables ambientales realizado por el sistema SmartRovert.
+                        </li>
+
+                        <li>
+                            Diseñar e implementar mejoras tecnológicas basadas en Internet de las Cosas (IoT)
+                            y visión artificial en el prototipo SmartRovert 2.0.
+                        </li>
+
+                        <li>
+                            Verificar el impacto de las mejoras implementadas en el desempeño
+                            del sistema en condiciones reales de cultivo.
+                        </li>
+
+                        <li>
+                            Analizar la aceptación del sistema SmartRovert por parte
+                            de los usuarios en el contexto agrícola.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- DOCUMENTACIÓN -->
+    <section class="page-section bg-primary text-white"
+        id="documentacion">
+
+        <div class="container">
+
+            <h2 class="page-section-heading text-center text-uppercase text-white mb-5">
+
+                Documentación del proyecto
+
+            </h2>
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-10">
+
+                    <!-- Documento -->
+                    <div class="mb-5">
+
+                        <h3>
+                            Anteproyecto
+                        </h3>
+
+                        <p class="lead">
+
+                            Documento completo del proyecto SmartRovert.
+
+                        </p>
+
+                        <a class="btn btn-xl btn-outline-light m-2"
+                            href="assets/documentos/anteproyecto.pdf"
+                            target="_blank">
+
+                            Ver PDF
+
+                        </a>
+
+                    </div>
+
+                    <!-- Matriz -->
+                    <div class="mb-5">
+
+                        <h3>
+                            Matriz de Consistencia
+                        </h3>
+
+                        <p class="lead">
+
+                            Relación entre problema, objetivos, hipótesis y variables.
+
+                        </p>
+
+                        <a class="btn btn-xl btn-outline-light m-2"
+                            href="assets/documentos/matriz_consistencia.pdf"
+                            target="_blank">
+
+                            Ver PDF
+
+                        </a>
+
+                    </div>
+
+                    <!-- Operacionalización -->
+                    <div class="mb-5">
+
+                        <h3>
+                            Matriz de Operacionalización
+                        </h3>
+
+                        <p class="lead">
+
+                            Organización de variables, dimensiones, indicadores
+                            e instrumentos del estudio.
+
+                        </p>
+
+                        <a class="btn btn-xl btn-outline-light m-2"
+                            href="assets/documentos/matriz_operacionalizacion.pdf"
+                            target="_blank">
+
+                            Ver PDF
+
+                        </a>
+
+                    </div>
+
+                    <!-- Marco lógico -->
+                    <div class="mb-5">
+
+                        <h3>
+                            Marco lógico
+                        </h3>
+
+                        <p class="lead">
+
+                            Desarrollo metodológico completo del proyecto.
+
+                        </p>
+
+                        <a class="btn btn-xl btn-outline-light m-2"
+                            href="pages/marco-logico.html">
+
+                            Ver sección
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- GALERÍA -->
+    <section class="page-section">
+
+        <div class="container">
+
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-5">
+
+                Galería del proyecto
+
+            </h2>
+
+            <div class="row justify-content-center">
+
+                <div class="col-md-6 col-lg-4 mb-5">
+
+                    <img class="img-fluid rounded"
+                        src="assets/img/robot/prototipo1.jpg"
+                        alt="Prototipo SmartRovert">
+
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5">
+
+                    <img class="img-fluid rounded"
+                        src="assets/img/robot/pruebas.jpg"
+                        alt="Pruebas del sistema">
+
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5">
+
+                    <img class="img-fluid rounded"
+                        src="assets/img/robot/sensores.jpg"
+                        alt="Sensores IoT">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer text-center">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-12">
+
+                    <h4 class="text-uppercase mb-4">
+
+                        SmartRovert
+
+                    </h4>
+
+                    <p class="lead mb-0">
+
+                        Proyecto académico enfocado en robótica agrícola,
+                        Internet de las Cosas (IoT) y visión artificial.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- COPYRIGHT -->
+    <div class="copyright py-4 text-center text-white">
+
+        <div class="container">
+
+            <small>
+
+                Copyright &copy; SmartRovert 2026
+
+            </small>
+
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Theme JS -->
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>

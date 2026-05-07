@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Marco lógico | SmartRovert
+    </title>
+
+    <!-- Bootstrap -->
+    <link href="../css/styles.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body id="page-top">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+                SmartRovert
+            </a>
+
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive">
+
+                Menú
+                <i class="fas fa-bars"></i>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item mx-0 mx-lg-1">
+
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="index.html">
+
+                            Volver al inicio
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- HEADER -->
+    <header class="masthead bg-primary text-white text-center">
+
+        <div class="container d-flex align-items-center flex-column">
+
+            <h1 class="masthead-heading text-uppercase mb-0">
+
+                Marco lógico del anteproyecto
+
+            </h1>
+
+            <br>
+
+            <p class="masthead-subheading font-weight-light mb-0">
+
+                SmartRovert - SmartAgriculture
+
+            </p>
+
+        </div>
+
+    </header>
+
+    <!-- INTRODUCCIÓN -->
+    <section class="page-section">
+
+        <div class="container">
+
+            <h2 class="text-center text-uppercase text-secondary mb-5">
+
+                Planeación del proyecto
+
+            </h2>
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-10">
+
+                    <p class="lead text-center">
+
+                        Esta sección presenta la construcción del marco lógico del
+                        anteproyecto SmartRovert, orientado al análisis y mejora
+                        de un sistema de robótica agrícola basado en Internet
+                        de las Cosas (IoT) y visión artificial para el monitoreo
+                        inteligente de cultivos.
+
+                        <br><br>
+
+                        El marco lógico permite organizar de manera estructurada
+                        los actores involucrados, el problema central, los objetivos,
+                        las alternativas de solución y la planificación metodológica
+                        del proyecto.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PASO 1 -->
+    <section class="page-section bg-light">
+
+        <div class="container">
+
+            <h2 class="text-uppercase text-secondary mb-4">
+
+                Paso 1. Análisis de involucrados
+
+            </h2>
+
+            <p class="lead">
+
+                El análisis de involucrados permite identificar los actores que se
+                relacionan directa o indirectamente con el proyecto SmartRovert,
+                considerando su interés, nivel de influencia y relación con la
+                problemática agrícola abordada.
+
+            </p>
+
+            <br>
+
+            <h4>
+                Actores identificados
+            </h4>
+
+            <div class="table-responsive">
+
+                <table class="table table-bordered">
+
+                    <thead class="table-dark">
+
+                        <tr>
+
+                            <th>Categoría</th>
+                            <th>Involucrados</th>
+                            <th>Relación con el proyecto</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+
+                            <td>Actores directos</td>
+
+                            <td>Agricultores de pequeña escala</td>
+
+                            <td>
+                                Usuarios potenciales del sistema SmartRovert.
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Actores académicos</td>
+
+                            <td>Docentes y jurados académicos</td>
+
+                            <td>
+                                Orientan y evalúan el proyecto.
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Actores tecnológicos</td>
+
+                            <td>ESP32, Raspberry Pi y sensores IoT</td>
+
+                            <td>
+                                Componentes tecnológicos del sistema.
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Actores institucionales</td>
+
+                            <td>Universidad de Cundinamarca</td>
+
+                            <td>
+                                Contexto institucional del proyecto.
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Beneficiarios indirectos</td>
+
+                            <td>Comunidad agrícola</td>
+
+                            <td>
+                                Posibles beneficiarios futuros del sistema.
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PASO 2 -->
+    <section class="page-section">
+
+        <div class="container">
+
+            <h2 class="text-uppercase text-secondary mb-4">
+
+                Paso 2. Árbol de problemas
+
+            </h2>
+
+            <h4>
+                Problema central
+            </h4>
+
+            <p class="lead">
+
+                Existe un monitoreo ineficiente de variables ambientales
+                en cultivos de pequeña escala debido a limitaciones
+                tecnológicas y procesos agrícolas tradicionales.
+
+            </p>
+
+            <br>
+
+            <h4>
+                Causas identificadas
+            </h4>
+
+            <ul class="lead">
+
+                <li>
+                    Escasa automatización agrícola.
+                </li>
+
+                <li>
+                    Monitoreo manual de cultivos.
+                </li>
+
+                <li>
+                    Baja integración tecnológica en pequeños cultivos.
+                </li>
+
+                <li>
+                    Limitaciones en detección temprana de problemas.
+                </li>
+
+            </ul>
+
+            <br>
+
+            <h4>
+                Efectos identificados
+            </h4>
+
+            <ul class="lead">
+
+                <li>
+                    Baja eficiencia en el monitoreo.
+                </li>
+
+                <li>
+                    Dificultad en la toma de decisiones agrícolas.
+                </li>
+
+                <li>
+                    Uso ineficiente de recursos.
+                </li>
+
+                <li>
+                    Disminución de productividad agrícola.
+                </li>
+
+            </ul>
+
+            <br>
+
+            <img class="img-fluid rounded"
+                src="assets/img/marco_logico/arbolproblemas.png"
+                alt="Árbol de problemas">
+
+        </div>
+
+    </section>
+
+    <!-- PASO 3 -->
+    <section class="page-section bg-light">
+
+        <div class="container">
+
+            <h2 class="text-uppercase text-secondary mb-4">
+
+                Paso 3. Árbol de objetivos
+
+            </h2>
+
+            <h4>
+                Objetivo central
+            </h4>
+
+            <p class="lead">
+
+                Optimizar el monitoreo de variables ambientales
+                en cultivos de pequeña escala mediante un sistema
+                de robótica agrícola basado en IoT y visión artificial.
+
+            </p>
+
+            <br>
+
+            <h4>
+                Medios
+            </h4>
+
+            <ul class="lead">
+
+                <li>Integración de sensores IoT.</li>
+
+                <li>Automatización del monitoreo agrícola.</li>
+
+                <li>Implementación de visión artificial.</li>
+
+                <li>Recolección continua de datos.</li>
+
+            </ul>
+
+            <br>
+
+            <h4>
+                Fines
+            </h4>
+
+            <ul class="lead">
+
+                <li>Mejor toma de decisiones agrícolas.</li>
+
+                <li>Optimización de recursos.</li>
+
+                <li>Incremento de eficiencia productiva.</li>
+
+                <li>Fortalecimiento tecnológico agrícola.</li>
+
+            </ul>
+
+            <br>
+
+            <img class="img-fluid rounded"
+                src="assets/img/marco_logico/arbolobjetivos.png"
+                alt="Árbol de objetivos">
+
+        </div>
+
+    </section>
+
+    <!-- PASO 4 -->
+    <section class="page-section">
+
+        <div class="container">
+
+            <h2 class="text-uppercase text-secondary mb-4">
+
+                Paso 4. Selección de estrategia
+
+            </h2>
+
+            <p class="lead">
+
+                La estrategia seleccionada consiste en el diseño,
+                implementación y evaluación del prototipo SmartRovert 2.0,
+                incorporando mejoras tecnológicas basadas en Internet
+                de las Cosas (IoT), sensores ambientales y visión artificial.
+
+            </p>
+
+            <br>
+
+            <div class="table-responsive">
+
+                <table class="table table-bordered">
+
+                    <thead class="table-dark">
+
+                        <tr>
+
+                            <th>Acción</th>
+                            <th>Medio</th>
+                            <th>Problema</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+
+                            <td>
+                                Integrar sensores IoT
+                            </td>
+
+                            <td>
+                                Monitoreo automatizado
+                            </td>
+
+                            <td>
+                                Monitoreo manual
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>
+                                Implementar visión artificial
+                            </td>
+
+                            <td>
+                                Detección temprana
+                            </td>
+
+                            <td>
+                                Baja supervisión
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>
+                                Evaluar el prototipo en campo
+                            </td>
+
+                            <td>
+                                Validación del sistema
+                            </td>
+
+                            <td>
+                                Baja eficiencia
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PASO 5 -->
+    <section class="page-section bg-light">
+
+        <div class="container">
+
+            <h2 class="text-uppercase text-secondary mb-4">
+
+                Paso 5. Estructura Analítica del Proyecto
+
+            </h2>
+
+            <h4>
+                Fin
+            </h4>
+
+            <p class="lead">
+
+                Contribuir al fortalecimiento de la agricultura
+                inteligente mediante tecnologías de monitoreo automatizado.
+
+            </p>
+
+            <br>
+
+            <h4>
+                Propósito
+            </h4>
+
+            <p class="lead">
+
+                Optimizar el desempeño del sistema SmartRovert
+                para el monitoreo inteligente de cultivos.
+
+            </p>
+
+            <br>
+
+            <h4>
+                Componentes
+            </h4>
+
+            <ul class="lead">
+
+                <li>
+                    Sistema SmartRovert evaluado.
+                </li>
+
+                <li>
+                    Mejoras IoT implementadas.
+                </li>
+
+                <li>
+                    Sistema de visión artificial integrado.
+                </li>
+
+                <li>
+                    Pruebas en campo realizadas.
+                </li>
+
+                <li>
+                    Aceptación del usuario analizada.
+                </li>
+
+            </ul>
+
+            <br>
+
+            <h4>
+                Actividades
+            </h4>
+
+            <ul class="lead">
+
+                <li>
+                    Evaluar desempeño actual del prototipo.
+                </li>
+
+                <li>
+                    Integrar sensores y módulos IoT.
+                </li>
+
+                <li>
+                    Implementar visión artificial.
+                </li>
+
+                <li>
+                    Realizar pruebas en cultivos.
+                </li>
+
+                <li>
+                    Aplicar cuestionarios de aceptación.
+                </li>
+
+            </ul>
+
+            <br>
+
+            <img class="img-fluid rounded"
+                src="assets/img/marco_logico/eap.png"
+                alt="EAP">
+
+        </div>
+
+    </section>
+
+    <!-- PASO 6 -->
+    <section class="page-section">
+
+        <div class="container">
+
+            <h2 class="text-uppercase text-secondary mb-4">
+
+                Paso 6. Resumen narrativo
+
+            </h2>
+
+            <div class="table-responsive">
+
+                <table class="table table-bordered">
+
+                    <thead class="table-dark">
+
+                        <tr>
+
+                            <th>Nivel</th>
+                            <th>Código</th>
+                            <th>Resumen narrativo</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+
+                            <td>Fin</td>
+                            <td>F.1</td>
+
+                            <td>
+                                Contribuir al desarrollo de soluciones
+                                tecnológicas aplicadas a la agricultura inteligente.
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Propósito</td>
+                            <td>P.1</td>
+
+                            <td>
+                                Optimizar el monitoreo agrícola mediante
+                                el prototipo SmartRovert.
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Componente</td>
+                            <td>C.1</td>
+
+                            <td>
+                                Sistema SmartRovert evaluado.
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Actividad</td>
+                            <td>A.1</td>
+
+                            <td>
+                                Integrar sensores y visión artificial
+                                al sistema SmartRovert.
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer text-center">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-12">
+
+                    <h4 class="text-uppercase mb-4">
+
+                        SmartRovert
+
+                    </h4>
+
+                    <p class="lead mb-0">
+
+                        Proyecto académico enfocado en robótica agrícola,
+                        IoT y visión artificial.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- COPYRIGHT -->
+    <div class="copyright py-4 text-center text-white">
+
+        <div class="container">
+
+            <small>
+
+                Copyright &copy; SmartRovert 2026
+
+            </small>
+
+        </div>
+
+    </div>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
