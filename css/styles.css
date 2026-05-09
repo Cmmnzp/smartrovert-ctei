@@ -11122,3 +11122,207 @@ p {
     }
 
 }
+/* =========================================
+   HERO MODERNO
+========================================= */
+
+.hero-section-small {
+
+    background:
+        linear-gradient(
+            rgba(255,255,255,0.78),
+            rgba(255,255,255,0.78)
+        ),
+        url('../assets/img/banner-smartrovert.png');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 55vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+.hero-title {
+
+    font-size: 4rem;
+    font-weight: 800;
+    color: #4b3425;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.hero-subtitle {
+
+    font-size: 1.3rem;
+    color: #3f3f3f;
+    max-width: 850px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+.hero-text {
+
+    font-size: 1.15rem;
+    color: #555;
+    max-width: 900px;
+    margin: 25px auto 0 auto;
+    line-height: 2;
+}
+
+.hero-authors {
+
+    font-size: 1rem;
+    margin-top: 25px;
+    color: #6a6a6a;
+}
+
+/* =========================================
+   SECCIONES
+========================================= */
+
+.section-custom {
+
+    padding: 100px 0;
+}
+
+.section-light {
+
+    background: #f7f1ea;
+}
+
+.section-white {
+
+    background: white;
+}
+
+.section-title {
+
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: #150F0B;
+    text-align: center;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+
+/* =========================================
+   CARDS
+========================================= */
+
+.card-custom {
+
+    background: white;
+    border-radius: 25px;
+    padding: 45px;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.08);
+
+    transition: 0.3s;
+}
+
+.card-custom:hover {
+
+    transform: translateY(-5px);
+}
+
+/* =========================================
+   TABLAS
+========================================= */
+
+.table-custom {
+
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.table-custom thead {
+
+    background: #4b3425;
+    color: white;
+}
+
+.table {
+
+    margin-bottom: 0;
+}
+
+/* =========================================
+   NAVBAR
+========================================= */
+
+.custom-navbar {
+
+    background: #2d1d14;
+    padding: 18px 0;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.custom-navbar .nav-link {
+
+    color: white !important;
+    font-weight: 600;
+}
+
+.custom-navbar .navbar-brand {
+
+    color: #d8a15d !important;
+    font-weight: 800;
+}
+
+/* =========================================
+   TEXTO GENERAL
+========================================= */
+
+.lead {
+
+    line-height: 1.9;
+    color: #555;
+}
+
+/* =========================================
+   IMAGENES
+========================================= */
+
+img {
+
+    border-radius: 20px;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media(max-width:768px){
+
+    .hero-title{
+
+        font-size: 2.7rem;
+    }
+
+    .hero-subtitle{
+
+        font-size: 1.1rem;
+    }
+
+    .hero-text{
+
+        font-size: 1rem;
+    }
+
+    .section-title{
+
+        font-size: 2rem;
+    }
+
+    .card-custom{
+
+        padding: 30px;
+    }
+
+}
