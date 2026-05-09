@@ -11133,7 +11133,7 @@ p {
             rgba(255,255,255,0.78),
             rgba(255,255,255,0.78)
         ),
-        url('../assets/img/banner-smartrovert.png');
+        url('../assets/img/banner/banner-smartrovert.png');
 
     background-size: cover;
     background-position: center;
@@ -11206,7 +11206,7 @@ p {
 
     font-size: 2.8rem;
     font-weight: 800;
-    color: #150F0B;
+    color: #4b3425;
     text-align: center;
     margin-bottom: 60px;
     text-transform: uppercase;
